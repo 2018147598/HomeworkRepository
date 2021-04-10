@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
 body {
   background-color: #0b0c10;
+  margin:auto;
+  width:1020px;
 }
 
 
@@ -22,48 +26,136 @@ form.signup > div, form.login > div{
   margin: 10px;
 }
 
-header {
+a.homepage{
   color: #66FCF1;
+  text-decoration: none;
+  caret-color: transparent;
+}
+
+header>div.header {
   text-align: center;
-  font-family: Impact;
-  font-size: 150px;
+  font-family: "Plaster", sans-serif;
+  font-size: 70px;
   letter-spacing: 10px;
+  font-weight: bold;
 }
 
-header:before {
-  content: "PAK";
+.homepage{
+  animation-name: move;
+  animation-duration: 2s;
+  position:relative;
 }
 
+@keyframes move{
+  from{
+    left: 1000px;
+  }
 
-a {
-  background-color: #1f2833;
+  to{
+    left:0px;
+  }
+}
+
+a.button_group {
   color: white;
-  border: 1px solid;
-  border-color: #66FCF1;
+
   margin: 5px;
-  border-radius: 6px;
+  border-radius: 10px;
   text-decoration: none;
   padding: 15px;
 }
+/* newly added*/
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 5%;
+}
 
-a:hover {
-  background-color: black;
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+
+/*newly added*/
+
+.field{
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.paks{
+  display: flex;
+  padding: 10px;
+}
+
+.field h1{
+  display: inline-block;
+  padding: 20px;
+}
+
+.field > div{
+  border: 3px;
+  width:100%;
+  margin: auto;
+  font-size: 30px;
+}
+
+.item{
+  border: 3px;
+  width: 50%;
+  height:440px;
+  border: 1px solid black;
+  font-size: 30px;
+  margin:20px;
+  overflow: hidden;
+}
+
+.item > img:hover{
+  height: 100%;
+  width: 100%;
+}
+
+
+.item > img{
+  width:30%;
+  height:30%;
+  transition: all 2s;
+}
+
+body a.button_group:hover {
+  background-color: #1F2833;
 }
 
 form h1 {
   text-align: center;
   font-size: 30px;
+
 }
 
-.footer:before {
+footer:before {
   content: "Made by 이성원 2018147598"
 }
 
-.footer {
+footer {
   text-align: center;
   color: white;
   margin: 50px;
   font-family:Courier;
+  display: flexbox;
+  column-count:auto;
+  column-gap:50px;
+  column-width:200px;
+  column-rule: #f2f2f2;
+  column-rule-style: solid;
+  column-rule-width: 1px;
 }
 
 input[type=text],
@@ -99,7 +191,7 @@ input[type=submit]:hover {
 div>form {
   margin: auto;
   height:100%;
-  width: 40%;
+  width: 55%;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
