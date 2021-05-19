@@ -1,98 +1,98 @@
 [
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
         "name":"let's go eevee",
         "image":"switch.jpg"
     },
     {
-        "console":"nswitch",
+        "console":2,
         "price":40000,
-        "name":"let's go eevee",
-        "image":"switch.jpg"
+        "name":"Red Dead Redemption 2",
+        "image":"reddead.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
-        "name":"let's go eevee",
-        "image":"switch.jpg"
+        "name":"Pokemon Shield",
+        "image":"shield.jpg"
     },
     {
-        "console":"nswitch",
+        "console":1,
         "price":40000,
-        "name":"let's go eevee",
-        "image":"switch.jpg"
+        "name":"Pokemon Sword",
+        "image":"sword.png"
     },
     {
-        "console":"nswitch",
+        "console":3,
         "price":40000,
-        "name":"let's go eevee",
-        "image":"switch.jpg"
+        "name":"Resident Evil Village",
+        "image":"resevil.jpg"
     }
 ]
