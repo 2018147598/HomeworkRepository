@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <script type="text/javascript" src="./items.js">
+  </script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaK - 게임팩 중고거래</title>
+  </head>
+  <body onload="getItems()">
+    <header>
+      <div class="header"><a class="logo" href="index.html">PaK</a></div>
+      <nav>
+        <ul class="nav_links">
+          <li><a class="button_group" href="login.html">로그인</a></li>
+          <li><a class="button_group" href="signup.html">회원가입</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <div class="field" action="">
+        <h1 id="test">오늘의 추천 상품</h1>
+        <div class="index_box">
+          <div class="search">
+            <form id="search_form" method=GET>
+              <div class="consoles">
+                <div class="searchtext">Choose a Console</div>
+                <select name="" id="drop_consoles" autofocus>
+                  <option value="0">All</option>
+                  <option value="1">Nintendo Switch</option>
+                  <option value="2">PlayStation 4</option>
+                  <option value="3">PlayStation 5</option>
+                  <option value="4">Xbox One</option>
+                  <option value="5">Xbox Series X</option>
+                </select>
+              </div>
+              <div class="searchtext">Search for a keyword</div>
+              <input id= "search_box" type="text" class="search_box" placeholder="Search For..">
+              <button type="button" onclick="search()" id="submit_search">Search</button>
+            </form>
+          </div>
+          <div id="paks_block" class="paks_block">
+            <div class="paks" id="paks">
+            </div>
+            <script>document.getElementById("paks").addEventListener("click", explanation)</script>
+            <div id="more_wrap"><div id="more_button" style="text-align: center; margin: 20px;"><button onclick="getItems()">More</button></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <footer></footer>
+  </body>
+</html>
