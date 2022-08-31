@@ -1,7 +1,7 @@
 let i = 0;
 
 function getItems(){
-    fetch("https://2018147598.github.io/HomeworkRepository/LAB4/product.json")
+    fetch("https://davdleet.github.io/HomeworkRepository/LAB4/product.json")
     .then(checkStatus)
     .then(response => {
         return response.json()
@@ -27,7 +27,7 @@ function search(){
     console_num = document.getElementById("drop_consoles").value
     search_query = document.getElementById("search_box").value
     i = 0;
-    data = fetch("https://2018147598.github.io/HomeworkRepository/LAB4/product.json")
+    data = fetch("https://davdleet.github.io/HomeworkRepository/LAB4/product.json")
     .then(checkStatus)
     .then(async response => { 
             parsed = await response.json()
